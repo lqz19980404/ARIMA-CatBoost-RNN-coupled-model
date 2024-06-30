@@ -9,23 +9,7 @@ from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 warnings.filterwarnings("ignore")
 
 # 时间序列数据
-data = [2.22348,
-2.3680 ,
-2.2848 ,
-2.2512 ,
-2.1223 ,
-2.072078,
-2.0401 ,
-2.1671 ,
-2.4031 ,
-2.4395 ,
-2.356332,
-2.3788 ,
-2.3494 ,
-2.2909 ,
-2.4700
-
-]
+data = []
 time_series = pd.Series(data)
 
 # 构建并拟合ARIMA模型
